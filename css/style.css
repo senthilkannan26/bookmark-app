@@ -45,9 +45,32 @@ input {
   width: 80%;
   margin: 5px 10%;
 }
-
+.close-btn {
+  float: right;
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.801);
+  text-decoration: none;
+  padding: 3px;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: rgba(29, 3, 143, 0.671);
+  padding: 3px;
+}
 @media (max-width: 500px) {
   input {
     width: 80%;
+  }
+}
+
+@media (min-width: 1000px) {
+  input {
+    width: 60%;
+  }
+  .output-item {
+    width: 50%;
+    margin-left: 20%;
   }
 }
